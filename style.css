@@ -1,0 +1,102 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+#navBar {
+    height:20px;
+    width:660px;
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    margin:0 auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#navBar input[type="Search"] {
+    padding:5px;
+    border: 2px solid black;
+    width:50%;
+}
+
+#navBar #btn {
+    background-color: rgb(54, 102, 235);
+    padding:3px 12px;
+    color:white;
+    border:2px solid black;
+    box-shadow: 3px 3px black;
+}
+
+#container {
+    width:700px;
+    margin:20px auto;
+    display:flex;
+    justify-content: space-between;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:20px;
+    border:2px solid black;
+    padding:5px 0;
+    font-size:18px;
+}
+
+#boxRight {
+    width:50%;
+    padding: 12% 30px;
+    font-weight: bold;
+
+}
+#boxLeft {
+    width:25%;
+    padding:10px;
+    text-align:center;
+}
+
+#boxLeft #btnLikes {
+    width:65%;
+    height:30px;
+    background-color: rgb(241, 213, 120);
+    border:2px solid black;
+    box-shadow: 3px 3px black;
+    font-weight:bold;
+}
+
+.box span {
+    text-decoration: underline;
+    color:rgb(0, 132, 255)
+}
+
+
+#mainContent {
+    margin-right:20px;
+    width:70%;
+}
+
+#sideBar {
+    border:2px solid black;
+    padding:10px;
+    height:110px;
+    font-size: 22px;
+    width:25%;
+}
+#sideBar p {
+    font-weight:bold;
+}
+#sideBar span {
+    font-size:larger;
+}
+#sideBar #btn {
+    background-color: rgb(109, 209, 109);
+    padding:5px 20px;
+    font-weight:bold;
+    font-size:16px;
+    border:2px solid black;
+    box-shadow: 3px 3px black;
+    margin:8px;
+}
